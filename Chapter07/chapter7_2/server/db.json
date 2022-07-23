@@ -1,0 +1,14 @@
+{
+  "posts": [
+    { "id": "react-hooks", "title": "React Hooks", "content": "The greatest thing since sliced bread!", "author": "Fname Lname" },
+    { "id": "react-fragments", "title": "Using React Fragments", "content": "Keeping the DOM tree clean!", "author": "Fname Lname" }
+  ],
+  "users": [
+    { "id": 1, "username": "Fname Lname", "password": "password" }
+  ],
+  "themes": [
+      { "id": 1, "primaryColor": "deepskyblue", "secondaryColor": "coral" },
+      { "id": 2, "primaryColor": "orchid", "secondaryColor": "mediumseagreen" },
+      { "id": 3, "primaryColor": "darkslategray", "secondaryColor": "slategray" }
+  ]
+}
