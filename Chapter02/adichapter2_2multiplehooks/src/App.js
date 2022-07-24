@@ -13,6 +13,7 @@ function useState (initialState) {
       ReactDom.render( <MyAdi />,  document.getElementById('root'))
     }
 
+
     return [ values[currenthook++], setState ]
 }
 
