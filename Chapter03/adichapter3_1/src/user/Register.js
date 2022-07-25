@@ -9,7 +9,7 @@ export default function Register(){
         <input type={"password"} name="register-password" id='register-password'></input>
         <label htmlFor='register-password-repeat'>Password:</label>
         <input type={"password"} name="register-password-repeat" id='register-password-repeat'></input>
-        <input type={"submit"} value="Login"></input>
+        <input type={"submit"} value="Register"></input>
     </form>
     )
 }
