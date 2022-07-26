@@ -1,8 +1,10 @@
-import React from "react";
+import React from 'react'
 
-export default function Logout({user}){
+export default function Logout ({ user }) {
+  return (
     <form onSubmit={e => e.preventDefault()}>
-        Logged In as: <b>{user}</b>
-        <input type={"submit"} value="Logout"></input>
+      Logged in as: <b>{user}</b>
+      <input type="submit" value="Logout" />
     </form>
+  )
 }

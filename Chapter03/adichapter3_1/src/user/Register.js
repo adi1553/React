@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Register(){
     return(
-        <form onSubmit={e => e.preventDefault()}>
+    <form onSubmit={e => e.preventDefault()}>
         <label htmlFor='register-username'>Username:</label>
         <input type={"text"} name="register-username" id='register-username'></input>
         <label htmlFor='register-password'>Password:</label>

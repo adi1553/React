@@ -1,8 +1,6 @@
 import React from 'react'
-import Login from './user/Login'
-import Logout from './user/Logout'
-import Register from './user/Register'
+import Post from './post/post'
 
 export default function App () {
-    return <Register />
+    return <Post title="Adithya" content="content" author="Author"/>
 }
